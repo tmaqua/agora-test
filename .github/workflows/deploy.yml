@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: 12.x
           registry-url: "https://npm.pkg.github.com"
-          scope: "@xflagstudio"
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"

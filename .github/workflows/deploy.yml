@@ -6,7 +6,7 @@ on:
 env:
   cache-version: v1
 jobs:
-  integration:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

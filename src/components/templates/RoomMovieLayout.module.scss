@@ -1,0 +1,156 @@
+@import "../../assets/css/_variables.scss";
+
+.youtubePlayerWrapper {
+  position: relative;
+  padding-top: (9 / 16) * 100%;
+}
+
+.youtubePlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.frame {
+  @media #{$mq_min_667} {
+    padding: 0 100px;
+  }
+}
+
+.banner {
+  padding-bottom: 15px;
+
+  @media #{$mq_min_667} {
+    text-align: center;
+  }
+}
+
+.wrapper {
+  padding: 0 15px;
+}
+
+.youtube {
+  max-width: 495px;
+  margin: 0 auto;
+}
+
+.tabArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px 15px;
+
+  @media #{$mq_min_667} {
+    width: 600px;
+    padding-top: 15px;
+  }
+}
+
+.tab {
+  flex: 0 1 auto;
+  width: 100%;
+
+  @media #{$mq_min_667} {
+    width: 530px;
+  }
+}
+
+.micArea {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  left: 40px;
+  top: 2px;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  padding-right: 10px;
+
+  @media #{$mq_max_666} {
+    display: none;
+  }
+}
+
+.buttonArea {
+  max-width: 330px;
+  margin: 0 auto;
+  padding: 0 15px 0;
+}
+
+.buttonList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonListStatus {
+  flex: 0 1 calc(45% - 7px);
+}
+
+.buttonListInvitation {
+  flex: 0 1 calc(55% - 7px);
+}
+
+.memberArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  @media #{$mq_min_667} {
+    padding: 0 100px;
+  }
+}
+
+.enter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: translate(0, 100%);
+  visibility: hidden;
+}
+
+.enterActive {
+  @extend .enter;
+
+  visibility: visible;
+  transition: transform 200ms ease-out;
+  transform: translate(0, 0);
+}
+
+.enterDone {
+  @extend .enter;
+
+  // Youtubeの動画とかぶらないように
+  position: sticky;
+  visibility: visible;
+  transform: translate(0, 0);
+}
+
+.exitActive {
+  @extend .enter;
+
+  visibility: visible;
+  transition: transform 200ms ease-out;
+}
+
+.restImage {
+  max-width: 750px;
+  margin: auto;
+}
+
+.launchMonstBanner {
+  padding: 0;
+}

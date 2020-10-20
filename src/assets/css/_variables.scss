@@ -1,0 +1,47 @@
+// Font
+$baseFont: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", osaka,
+"游ゴシック", "Yu Gothic", yugothic, "メイリオ", meiryo, "ＭＳ Ｐゴシック",
+"MS PGothic", sans-serif;
+$verdana: verdana, arial, geneva, tahoma, sans-serif;
+
+// Media Queries
+$mq_min_667: "print, (min-width: 667px)";
+$mq_max_666: "(max-width: 666px)";
+$mq_max_480: "(max-width: 480px)";
+$mq_max_375: "(max-width: 375px)";
+$mq_max_320: "(max-width: 320px)";
+
+// BaseColor
+$mainColor: #151d39;
+$subColor: #1f5fa9;
+$fontColor: #1e1e1e;
+
+// BlueColor
+$blue01: #151d39;
+// $blue02: #10b2e3;
+$blue03: #1436b5;
+
+// PurpleColor
+$purple01: #505874;
+$purple02: #838aa2;
+$purple03: #35447b;
+$purple04: #3b435d;
+
+// GreenColor
+$green01: #008ab4;
+$green02: #33b514;
+$green03: #b4dce8;
+
+// RedColor
+$red01: #f51954;
+
+// PinkColor
+$pink01: #fff5f9;
+
+// GrayColor
+$gray01: #e4e4e4;
+
+// YellowColor
+$yellow01: #f0c820;
+$yellow02: #f0f050;
+$yellow03: #dfa702;

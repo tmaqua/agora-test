@@ -1,0 +1,6 @@
+analytics
+dist
+node_modules
+static_storybook
+.firebase
+.github

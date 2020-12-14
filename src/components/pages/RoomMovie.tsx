@@ -4,7 +4,6 @@ import { RoomMovieLayout } from "../templates/RoomMovieLayout";
 
 export const RoomMovie: React.FC = () => {
   const { id } = useParams();
-  console.log(id);
 
-  return <RoomMovieLayout />;
+  return <RoomMovieLayout groupId={id} />;
 };

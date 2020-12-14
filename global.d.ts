@@ -4,6 +4,7 @@ declare namespace NodeJS {
   interface ProcessEnv {
     readonly NODE_ENV: "development" | "production" | "test";
     readonly APP_ENV: string;
+    readonly AGORA_APP_ID: string;
   }
 }
 
